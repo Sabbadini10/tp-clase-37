@@ -8,7 +8,7 @@ let body = document.querySelector('body');
 //--------------------------------------------------------------------------
 /* cambie el estilo del h2 y cree un if para si viene nombre 
 ponerle el nombre del usuario si no el de invitado */
-h2.style.fontStyle = "uppercase"
+h2.style.textTransform = "uppercase"
 /*let nombre = prompt("Ingrese su nombre")
 if(nombre){
 h2.innerHTML += "<h2>" + "Bienvenido " + nombre + " </h2>"
